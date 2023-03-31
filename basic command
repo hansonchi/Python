@@ -1,4 +1,6 @@
-f = open("New file.txt", mode = "w")
+f = open("New file.txt", mode = "w") write file
 f.write("some thing\n")
+f = open("New file.txt", mode = "a") append on file
+f.write("something else\n")
 f.flush #更新至檔案
 f.close()
