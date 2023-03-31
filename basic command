@@ -1,0 +1,3 @@
+f = open("New file.txt", mode = "w")
+f.write("some thing\n")
+f.flush #更新至檔案
